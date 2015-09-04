@@ -1,0 +1,57 @@
+
+#Start of map file to be named Dragon_Shrine.map
+map_name Dragon Shrine
+width 34
+height 22
+image Map_DragonShrine.jpg
+	#s =  STATUE, circle
+	#d =  DIFFICULT, Color.YELLOW);
+	#c =  SACRED_CIRCLE, Color.CYAN);
+	#u =  SUMMONING_CIRCLE, new Color(30,255,160));
+	#^ =  SPIKE_STONES, Color.ORANGE);
+	#r =  RISKY, Color.ORANGE);
+	#6 =  BLOOD_ROCK, Color.RED);
+	#h =  HAUNTED, new Color(255, 0, 255, 208));
+	#p =  PIT, Color.GRAY);
+	#l =  LAVA, new Color(255, 128, 0));
+	#k =  SMOKE, new Color(48, 48, 64, 208));
+	#f =  FOREST, new Color(0, 208, 92));
+	#t =  TELEPORTER, new Color(192, 255, 128));
+	#e =  ELEMENTAL_WALL, new Color(48, 48, 32, 208));
+	#z =  ZONE_OF_DEATH, new Color(40, 0, 70));
+	#\ =  STEEP_SLOPE, Color.DARK_GRAY);
+	#~ =  WATERFALL, new Color(0, 0, 255, 128));
+	
+	#a =  START_A, Color.LIGHT_GRAY);
+	#b =  START_B, Color.LIGHT_GRAY);
+	#A =  VICTORY_A, Color.PINK);
+	#B =  VICTORY_B, Color.PINK);
+	#x = exit A 
+    #z = exit B 
+	
+	#w = SOLID, Color.BLACK);
+	#0 = GRID, Color.GRAY);
+	#m = CREATURE, new Color(255,80,40,208));
+bitmap
+w w w w w w w w w w w w B B 0 s s s 0 A A 0 0 0 0 0 w w w w w ah ahs ahs
+ahs ahs ahs h h 0 0 0 w w w B B 0 s s s 0 A A 0 0 0 0 0 0 0 0 ah ah ah ahs ahs
+w ah ahs ahs h h 0 0 0 w w w B B 0 s s s 0 A A w w 0 0 0 0 0 0 ah ah ah ah ah
+w ah ah ah h h 0 0 0 w 0 0 B B 0 d d d 0 A A w w 0 0 w 0 0 0 0 ah ah ah w
+w ah ah ah h h 0 0 0 0 0 0 0 0 0 0 0 0 0 0 w w w 0 0 w 0 0 0 0 0 ah ah w
+w ah ah ah h 0 0 0 0 0 0 0 w 0 0 0 0 0 0 0 0 0 0 0 0 w 0 0 0 0 0 0 ah w
+w a a a 0 0 0 w 0 0 0 0 w 0 0 0 0 0 0 0 0 0 0 0 0 w 0 0 0 0 0 0 0 w
+a a a a 0 0 0 w 0 0 w w w 0 0 c c c 0 0 w w w 0 0 w w 0 0 w w w w w
+0 0 0 0 0 0 0 w 0 0 w w s 0 0 c c c 0 0 s w s 0 0 s w 0 0 w w w w w
+0 0 w w w w w w 0 0 w w 0 0 0 c c c 0 0 0 w s 0 0 w w 0 0 h h h sh sh
+0 0 w w w w w w 0 0 0 0 0 0 0 0 0 0 0 0 0 w s 0 0 w w 0 0 0 h h sh sh
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 w 0 0 0 w 0 0 0 0 0 0 0 0 0 0 0 h h h h
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 h h
+w w w 0 0 0 w w w w w s 0 0 0 0 0 0 0 0 0 0 s w w 0 0 w 0 0 0 0 0 h
+w 0 0 0 0 0 0 0 w w 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 w w w w 0 0 w
+w 0 0 0 0 0 0 0 w w 0 0 0 0 w 0 0 0 w 0 0 0 0 0 0 0 0 w w w w b b w
+w bh 0 0 0 0 0 0 w w 0 0 0 0 0 cABu cABu cABu 0 0 0 0 0 0 w 0 0 w 0 0 b b b w
+w bh bh 0 0 0 0 0 w w 0 0 0 0 0 cABu cABu cABu 0 0 0 0 0 0 w 0 0 w 0 0 b b bh w
+w bh bh bh 0 0 0 0 0 0 0 0 0 0 0 cABu cABu cABu 0 0 0 0 0 s w 0 0 0 0 0 b bh bh w
+bh bh bh bh bh 0 0 0 0 0 0 0 0 0 w 0 0 0 w 0 0 0 0 w 0 0 0 0 0 0 bh bh bh bh
+bhs bhs bh bh bh bh 0 0 0 w 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 bh bh bhs bhs
+bhs bhs bh w w w w w w w s 0 0 xz xz xz xz xz xz xz 0 0 0 0 0 0 w w w w w bh bhs bhs

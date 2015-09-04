@@ -1,0 +1,26 @@
+
+
+//1. load file into string
+//2. on the top part split by line
+//3. for each line check to see if it contains a # or blank
+	if yes ignore line
+		if no go to 4
+//4. Split on space
+//5. if index 0 = "map_name" then index 1 will be assigned to width
+//5. if index 0 = "width" then index 1 will be assigned to width
+//5. if index 0 = "height" then index 1 will be assigned to width
+//5. if index 0 = "image" then index 1 will be assigned to width
+
+
+
+//6. On the bottom part of file, split by line also.
+//7. Split all lines on spaces - line by line
+//8. Check each string to see what features it contains.
+	if tileString contains "w" then tile[row][col].SOLID = true;
+	if tileString contains "h" then tile[row][col].HAUNTED = true;
+	 
+	 etc etc, for each one.
+	 
+
+	 
+	 

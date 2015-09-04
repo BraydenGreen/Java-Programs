@@ -1,0 +1,6 @@
+
+map_name Dragon_Shrine
+width 34
+height 22
+image Map_DragonShrine.jpg
+

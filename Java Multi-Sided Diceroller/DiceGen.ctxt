@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=sides
+comment0.target=DiceGen(int)
+comment1.params=rollOut
+comment1.target=int\ rollDice(int)
+numComments=2
